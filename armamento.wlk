@@ -13,17 +13,12 @@ class ArmaContundente{ //mazas, martillos
 
 
 class ArmaduraCasco{
-    // method valorArmadura() = 10
 
-    method aportarPuntosArmadura(unGladiador){
-        unGladiador.puntosArmadura(10)
-    }
+    method aportarPuntosArmadura(unGladiador) = 10
 }
 
 class ArmaduraEscudo{
-    // method valorArmadura() = 5
 
-    method aportarPuntosArmadura(unGladiador){
-        unGladiador.puntosArmadura(5 + unGladiador.destreza() * 0.10)
-    }
+    method aportarPuntosArmadura(unGladiador) = 5 + unGladiador.destreza() * 0.10
+    
 }
